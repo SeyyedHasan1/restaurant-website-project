@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <img width="50%" src="{{food.photo.url}}">
+
+    
+    <div>
+        <li>{{food.name}}</li><br>
+
+    <li>{{food.description}} </li><br>
+    <li>{{food.rate}} امتیاز</li><br>
+    <li>{{food.price}}<br>
+    <li>مدت انتظار {{food.time}} دقیقه</li><br>
+    </div>
+    
+{% endblock content %}
+
